@@ -1,0 +1,40 @@
+body {
+        font-family: Arial, sans-serif;
+        
+    }
+    
+    .calculator {
+        width: 300px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-color: gray;
+    }
+    
+    #display{
+        width: 92%;
+        padding: 10px;
+        margin-bottom: 33px;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    
+    .btn {
+        width: 45px;
+        height: 45px;
+        font-size: 14px;
+        margin: 5px;
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+
+    .btn:hover{
+        background-color: rgb(45, 27, 124);
+    }
+    
